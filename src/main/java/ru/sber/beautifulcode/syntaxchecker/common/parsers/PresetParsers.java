@@ -6,7 +6,6 @@ import ru.sber.beautifulcode.syntaxchecker.parser.Parsers;
 import ru.sber.beautifulcode.syntaxchecker.parser.SymbolKind;
 
 import static ru.sber.beautifulcode.syntaxchecker.parser.Parsers.*;
-import static ru.sber.beautifulcode.syntaxchecker.parser.Parsers.is;
 
 /**
  * Утилитный класс для стандратных парсеров
