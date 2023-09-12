@@ -4,7 +4,7 @@ import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
 import ru.sber.beautifulcode.syntaxchecker.parser.Parser;
 
 import java.util.List;

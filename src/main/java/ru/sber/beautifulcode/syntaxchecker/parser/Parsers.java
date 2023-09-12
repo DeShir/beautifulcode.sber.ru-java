@@ -2,7 +2,7 @@ package ru.sber.beautifulcode.syntaxchecker.parser;
 
 import lombok.experimental.UtilityClass;
 import org.jetbrains.annotations.NotNull;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
 import ru.sber.beautifulcode.syntaxchecker.parser.impl.*;
 
 import java.util.Arrays;
@@ -52,14 +52,6 @@ public class Parsers {
 
     public <S, R1, R2, R3> Parser<S, R2> seq(Parser<S, R1> p1, Parser<S, R2> p2, Parser<S, R3> p3) {
         return seql(seqr(p1, p2), p3);
-    }
-
-    public <S, R1, R2, R3, R4> Parser<S, R4> seqr(Parser<S, R1> p1, Parser<S, R2> p2, Parser<S, R3> p3, Parser<S, R4> p4) {
-        return seqr(seqr(seqr(p1, p2), p3), p4);
-    }
-
-    public <S, R1, R2, R3, R4> Parser<S, R1> seql(Parser<S, R1> p1, Parser<S, R2> p2, Parser<S, R3> p3, Parser<S, R4> p4) {
-        return seql(seql(seql(p1, p2), p3), p4);
     }
 
     @SafeVarargs

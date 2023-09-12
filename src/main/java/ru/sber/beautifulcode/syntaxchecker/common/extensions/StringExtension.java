@@ -1,4 +1,4 @@
-package ru.sber.beautifulcode.syntaxchecker.common;
+package ru.sber.beautifulcode.syntaxchecker.common.extensions;
 
 import org.jetbrains.annotations.NotNull;
 

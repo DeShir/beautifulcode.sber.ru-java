@@ -1,4 +1,4 @@
-package ru.sber.beautifulcode.syntaxchecker.parsers;
+package ru.sber.beautifulcode.syntaxchecker.common.parsers;
 
 import lombok.experimental.UtilityClass;
 import ru.sber.beautifulcode.syntaxchecker.parser.Parser;

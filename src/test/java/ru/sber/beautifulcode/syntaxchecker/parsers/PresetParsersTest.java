@@ -4,13 +4,13 @@ import lombok.experimental.ExtensionMethod;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
-import ru.sber.beautifulcode.syntaxchecker.common.StringExtension;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.extensions.StringExtension;
 
 import java.util.List;
 
 import static ru.sber.beautifulcode.syntaxchecker.parser.SymbolKind.TERMINAL;
-import static ru.sber.beautifulcode.syntaxchecker.parsers.PresetParsers.parensWithText;
+import static ru.sber.beautifulcode.syntaxchecker.common.parsers.PresetParsers.parensWithText;
 
 @ExtensionMethod(StringExtension.class)
 class PresetParsersTest {

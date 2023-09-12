@@ -2,8 +2,8 @@ package ru.sber.beautifulcode.syntaxchecker.parser.impl;
 
 import lombok.experimental.ExtensionMethod;
 import org.jetbrains.annotations.NotNull;
-import ru.sber.beautifulcode.syntaxchecker.common.ListExtension;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.extensions.ListExtension;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
 import ru.sber.beautifulcode.syntaxchecker.parser.Parser;
 
 import java.util.List;
