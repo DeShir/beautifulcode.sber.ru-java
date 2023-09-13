@@ -26,4 +26,5 @@ http://localhost:8080/swagger-ui.html
  <br>
 В качестве фреймворка для web-сервиса использовал spring-boot + web-flux.
 
+Ссылка на репозиторий: https://github.com/DeShir/beautifulcode.sber.ru-java.git
 

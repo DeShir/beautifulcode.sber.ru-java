@@ -10,7 +10,7 @@ import static ru.sber.beautifulcode.syntaxchecker.common.parser.Parsers.*;
 @UtilityClass
 public class Grammars {
     /**
-     * Вернер парсер, распознающий грамматику(текст со скобками):
+     * Вернет парсер, распознающий грамматику(текст со скобками):
      * T -> s.T
      * T -> (.T.).T
      * T -> (.T.)
