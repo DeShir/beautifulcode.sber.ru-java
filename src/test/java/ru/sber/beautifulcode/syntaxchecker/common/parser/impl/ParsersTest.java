@@ -1,11 +1,11 @@
-package ru.sber.beautifulcode.syntaxchecker.parser.impl;
+package ru.sber.beautifulcode.syntaxchecker.common.parser.impl;
 
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
-import ru.sber.beautifulcode.syntaxchecker.parser.Parser;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.parser.Parser;
 
 import java.util.List;
 

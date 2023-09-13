@@ -1,7 +1,7 @@
-package ru.sber.beautifulcode.syntaxchecker.parser;
+package ru.sber.beautifulcode.syntaxchecker.common.parser;
 
 /**
- * Экземпляр терминального состояния прасера.
+ * Экземпляр состояния прасера.
  * Используется в спомогательных целях
  */
 public enum SymbolKind {

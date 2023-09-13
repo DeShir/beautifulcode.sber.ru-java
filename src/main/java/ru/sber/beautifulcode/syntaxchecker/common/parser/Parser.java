@@ -1,7 +1,7 @@
-package ru.sber.beautifulcode.syntaxchecker.parser;
+package ru.sber.beautifulcode.syntaxchecker.common.parser;
 
 import org.jetbrains.annotations.NotNull;
-import ru.sber.beautifulcode.syntaxchecker.common.Pair;
+import ru.sber.beautifulcode.syntaxchecker.common.types.Pair;
 
 import java.util.List;
 
