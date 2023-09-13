@@ -20,7 +20,7 @@ import ru.sber.beautifulcode.syntaxchecker.common.grammar.impl.GrammarServiceImp
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
-import static ru.sber.beautifulcode.syntaxchecker.common.parser.Grammars.textWithBrackets;
+import static ru.sber.beautifulcode.syntaxchecker.common.parser.Grammars.*;
 
 @Configuration
 public class CheckerConfiguration {

@@ -28,7 +28,6 @@ public class Grammars {
 
         var t_ = Parsers.<Character, SymbolKind>lazy();
 
-
         var t = or(
                 seqr(s, t_)
                 , seqr(o, t_, c, t_)
